@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.avidprogrammers.insurancepremiumcalculator" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+
+            <activity android:name=".MainActivity">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"
+                android:windowSoftInputMode="adjustPan" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+        <!-- motorcycle -->
+
+        <activity android:name=".CC_motorcycle"
+            android:windowSoftInputMode="adjustPan" />
+
+
+        <!-- motorcycle upto75cc -->
+
+        <activity android:name=".pt_motorcycle_upto75"
+            android:windowSoftInputMode="adjustPan" />
+
+        <activity android:name=".pp_motorcycle_upto75"
+            android:windowSoftInputMode="adjustPan" />
+
+        <activity android:name=".lp_motorcycle_upto75"
+            android:windowSoftInputMode="adjustPan" />
+
+        <activity android:name=".ppdisplay_motorcycle_upto75"
+            android:windowSoftInputMode="adjustPan" />
+
+
+
+        <!-- motorcycle upto150cc -->
+
+        <activity android:name=".pt_motorcycle_upto150"
+            android:windowSoftInputMode="adjustPan" />
+
+        <activity android:name=".pp_motorcycle_upto150"
+            android:windowSoftInputMode="adjustPan" />
+
+        <activity android:name=".lp_motorcycle_upto150"
+            android:windowSoftInputMode="adjustPan" />
+
+        <activity android:name=".ppdisplay_motorcycle_upto150"
+            android:windowSoftInputMode="adjustPan" />
+
+
+
+        <!-- motorcycle upto350cc -->
+
+        <activity android:name=".pt_motorcycle_upto350"
+            android:windowSoftInputMode="adjustPan" />
+
+        <activity android:name=".pp_motorcycle_upto350"
+            android:windowSoftInputMode="adjustPan" />
+
+        <activity android:name=".lp_motorcycle_upto350"
+            android:windowSoftInputMode="adjustPan" />
+
+        <activity android:name=".ppdisplay_motorcycle_upto350"
+            android:windowSoftInputMode="adjustPan" />
+
+
+
+        <!-- motorcycle 350abovecc -->
+
+        <activity android:name=".pt_motorcycle_350above"
+            android:windowSoftInputMode="adjustPan" />
+
+        <activity android:name=".pp_motorcycle_350above"
+            android:windowSoftInputMode="adjustPan" />
+
+        <activity android:name=".lp_motorcycle_350above"
+            android:windowSoftInputMode="adjustPan" />
+
+        <activity android:name=".ppdisplay_motorcycle_350above"
+            android:windowSoftInputMode="adjustPan" />
+
+
+
+        <!-- car -->
+
+        <activity android:name=".CC_car"
+            android:windowSoftInputMode="adjustPan" />
+
+
+        <!-- car upto1000cc -->
+
+        <activity android:name=".pt_car_upto1000"
+            android:windowSoftInputMode="adjustPan" />
+
+        <activity android:name=".pp_car_upto1000"
+            android:windowSoftInputMode="adjustPan" />
+
+        <activity android:name=".lp_car_upto1000"
+            android:windowSoftInputMode="adjustPan" />
+
+        <activity android:name=".lpdisplay_car_upto1000"
+            android:windowSoftInputMode="adjustPan" />
+
+        <activity android:name=".ppdisplay_car_upto1000"
+            android:windowSoftInputMode="adjustPan" />
+
+
+        <!-- car upto1500cc -->
+
+        <activity android:name=".pt_car_upto1500"
+            android:windowSoftInputMode="adjustPan" />
+
+        <activity android:name=".pp_car_upto1500"
+            android:windowSoftInputMode="adjustPan" />
+
+        <activity android:name=".lp_car_upto1500"
+            android:windowSoftInputMode="adjustPan" />
+
+        <activity android:name=".lpdisplay_car_upto1500"
+            android:windowSoftInputMode="adjustPan" />
+
+        <activity android:name=".ppdisplay_car_upto1500"
+            android:windowSoftInputMode="adjustPan" />
+
+
+
+        <!-- car above1500cc -->
+
+        <activity android:name=".pt_car_above1500"
+            android:windowSoftInputMode="adjustPan" />
+
+        <activity android:name=".pp_car_above1500"
+            android:windowSoftInputMode="adjustPan" />
+
+        <activity android:name=".lp_car_above1500"
+            android:windowSoftInputMode="adjustPan" />
+
+        <activity android:name=".lpdisplay_car_above1500"
+            android:windowSoftInputMode="adjustPan" />
+
+        <activity android:name=".ppdisplay_car_above1500"
+            android:windowSoftInputMode="adjustPan" />
+
+    </application>
+
+</manifest>

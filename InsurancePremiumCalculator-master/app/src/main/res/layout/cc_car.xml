@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="200dp"
+        android:background="#EAFAF1">
+
+    <TableLayout
+        android:id="@+id/table"
+        android:layout_width="match_parent"
+        android:layout_height="155sp">
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:background="#2E8B57" />
+
+    <TextView
+        android:layout_height="32sp"
+        android:layout_width="match_parent"
+        android:text="Select Vehicle CC"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:background="#EAFAF1"
+        android:textColor="#000"/>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:background="#2E8B57"
+        android:paddingTop="5dp"/>
+
+
+    <TableRow
+        android:id="@+id/TableRow01"
+        android:paddingTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="10dp">
+
+    <Button
+        android:id="@+id/car_upto1000"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:text="Upto 1000 cc"
+        android:background="@drawable/border"/>
+
+    <Button
+        android:id="@+id/car_upto1500"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:text="1001 - 1500 CC"
+        android:background="@drawable/border"/>
+   </TableRow>
+
+    </TableLayout>
+
+
+    <Button
+        android:id="@+id/car_above1500"
+        android:layout_width="190dp"
+        android:layout_height="80dp"
+        android:layout_weight="1"
+        android:text="> 1500 CC"
+        android:background="@drawable/border"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+
+        android:layout_below="@id/table"
+        android:layout_centerHorizontal="true" />
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:background="#3CB371"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id">
+    </com.google.android.gms.ads.AdView>
+
+
+</RelativeLayout>

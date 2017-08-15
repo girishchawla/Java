@@ -1,0 +1,343 @@
+/* 
+    Created on : Apr 9, 2016, 6:36:18 PM
+    Author     : Trent
+*/
+html, body {
+    margin: 0;
+    padding: 0px;
+    width: 100%;
+    height: 90%;
+    font-family: sans-serif;
+    background-color: #ddd;
+}
+
+.about{
+    width: 80%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.center_text {
+    text-align: center;
+}
+
+.card{
+    width: 20%;
+    height: auto;
+    display: block;
+}
+
+.money{
+    float: right;
+    padding-right: 50px;
+    width: 40%;
+    height: auto;
+}
+
+.claimArea{
+    border: 1px solid #448844; 
+    margin: 0; 
+    padding: 25px;
+    background-color: #66FF66;
+    text-align: center;
+}
+
+.btnCov{
+    float: right;
+    width: 60px;
+}
+
+.aliens {
+    display: block;
+    margin: 0 auto;
+}
+
+
+.funny {
+    width: 30%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.txtIndex{
+    text-align: center;
+}
+
+.txtIndex2{
+    text-align: center;
+}
+
+header {
+    margin:0;
+    padding: 1em;
+    height: 150px;
+    background-image: url("../Images/mars-attacks-banner-art.jpg");
+    background-size: contain;
+    border-bottom: .25em solid #000;   
+    text-shadow: 4px 4px 4px #000;
+}
+
+header h1 {
+    margin-left: 5%;
+    margin-bottom: 0;
+    color: white;
+}
+
+header a {
+    text-decoration: none;
+    color: #000;
+}
+
+header p {
+    margin-left: 7%;
+    margin-top: 0;
+    font-size: 1.25em;
+    color: white;
+}
+
+body > section {
+    margin: 0 3em;
+    padding: 0;
+    text-align: right;
+}
+
+main {
+    margin-left: 10%;
+    margin-right: 10%;
+    height: auto;
+    min-height: 100%;
+}
+
+footer {
+    margin: 0;
+    padding: 1em;
+    position: relative;
+    background-color: #66FF66;
+    border-top: .25em solid #000;
+}
+
+footer p {
+    margin: auto;
+    width: 25%;
+    text-align: center;
+    line-height: 2em;
+}
+
+form {
+    width: 35%;
+}
+
+form label{
+    display: inline-block;
+    width: 10em;
+    margin-bottom: 1em;
+    margin-right: 1em;
+    text-align: right;
+}
+
+form input {
+    float: right;
+    border: 3px solid #cccccc;
+}
+
+.error {
+    color: #ff0000;
+    font-weight: bold;
+}
+
+nav {
+    border: 1px solid #448844; 
+    margin: 0; 
+    padding: 25px;
+    background-color: #66FF66;
+    text-align: center;
+}
+
+nav ul {
+    margin: 0; 
+    padding: 3px;
+}
+
+nav ul li {
+    display: inline; 
+    margin: 5px;
+    padding: 5px;
+    background-color: #66FF66;
+}
+
+nav ul li a:link {
+    text-decoration: none;
+    color: #004400;
+    background-color: #aaffaa;
+    border-radius: 5px;
+    border: 1px solid #aaffaa;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+nav ul li a:visited {
+    color: #004400;
+    background-color: #aaffaa;
+    border-radius: 5px;
+    border: 1px solid #aaffaa;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+nav ul li a:hover {
+    color: #ddffdd;
+    background-color: #008800;
+    border-radius: 5px;
+    border: 1px solid #008800;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+nav ul li a:active {
+    color: #004400;
+    background-color: #ffffff;
+    border-radius: 5px;
+    border: 1px solid #ffffff;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.blogTable {
+    margin: 0 auto;
+    width: 90%;
+    border-spacing: 0;
+}
+
+.blogTable th {
+    text-align:left;
+}
+
+.blogTable td {
+    padding: .5em;
+    width: 33%;
+}
+
+.blogTable tbody tr:hover {
+    background-color: #008800;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+}
+
+.blogTable tbody tr:nth-child(odd) {
+    background-color: #66FF66;
+}
+
+.blogTable tbody tr:nth-child(odd):hover {
+    background-color: #004400;
+}
+
+.createBlogForm {
+    width: 50%;
+}
+
+.createBlogForm label{
+    font-weight:bold;
+    padding: 15px;
+}
+.createBlogForm input[type=text] {
+    padding: 5px;
+    width: 600px;
+    
+}
+.createBlogForm textarea{
+    float: right;
+    width: 600px;
+    height: 120px;
+    border: 3px solid #cccccc;
+    padding: 5px;
+    resize: none;
+    margin-bottom: 15px;
+    margin-left: 0;
+}
+
+.createBlogForm input[type=checkbox] {
+    background-color: #004400;
+    clear:both;
+}
+
+.blogContent {
+    width: 100%;
+    padding: 15px;
+    background-color: #fff;
+    border: 3px solid #cccccc;
+    margin: 15px auto;
+}
+
+.blogCommentForm {
+    width:100%;
+    padding: 15px;
+    display:table;
+}
+
+.blogCommentForm div {
+    display:table-row;
+}
+
+.blogCommentForm p {
+    display: block;
+    text-align:right;
+}
+
+.blogCommentForm input {
+    clear:both;
+    display: table-cell;
+}
+
+.blogCommentForm input[type=text] {
+    padding: 5px;
+    width: 500px;
+}
+
+.blogComments {
+    margin: 15px auto;
+    width: 100%;
+    padding: 15px;
+}
+
+.blogComment {
+    padding: 15px;
+    background-color: #fff;
+    border: 3px solid #cccccc;
+    margin-bottom: 5px;
+}
+
+.usersDiv {
+    background-color: #fff;
+    border-top:3px solid #000;
+    border-bottom: 3px solid #000;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.usersDiv h2 {
+    margin: 0;
+}
+
+.usersTable {
+    margin: 0 auto;
+    width: 100%;
+    text-align: left;
+    border-spacing: 0;
+}
+
+.usersTable td {
+    padding: .5em;
+    width: 16%;
+}
+
+.usersTable tbody tr:nth-child(odd) {
+    background-color: #66FF66;
+}
+
+
+
+

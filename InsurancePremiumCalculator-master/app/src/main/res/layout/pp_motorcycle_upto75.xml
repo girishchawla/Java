@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="15sp"
+    android:background="#EAFAF1">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="15sp"
+            android:paddingRight="15sp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="15sp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="IDV :"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/pp_motorcycle_upto75_idv_value"
+                    android:focusable="true"
+                    android:descendantFocusability="blocksDescendants"
+                    android:inputType="numberDecimal"
+                    android:hint="In Rupees"
+                    android:textColor="#000"
+                    android:maxLines="1"
+                    android:textAlignment="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="₹"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="15sp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Date of Purchase :"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/pp_motorcycle_upto75_date_value"
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:focusable="false"
+                    android:hint="dd/MM/yyyy"
+                    android:nextFocusDown="@+id/uwdiscount"
+                    android:textAlignment="center"
+                    android:textColor="#000" />
+
+                <Button
+                    android:id="@+id/pp_motorcycle_upto75_date_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:background="#3498DB"
+                    android:onClick="showDatePickerDialog"
+                    android:text="Date"
+                    android:textColor="#ffffff"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="15sp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Zone :"
+                    android:layout_marginTop="5dp"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+
+                <RadioGroup
+                    android:id="@+id/pp_motorcycle_upto75_zone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation='horizontal'
+                    android:layout_marginLeft="10dp">
+
+                    <RadioButton
+                        android:id="@+id/pp_motorcycle_upto75_zoneA"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="A"/>
+
+                    <RadioButton
+                        android:id="@+id/pp_motorcycle_upto75_zoneB"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="B"
+                        android:checked="true"
+                        android:layout_marginLeft="8dp"/>
+
+                </RadioGroup>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="15sp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="CC :"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/pp_motorcycle_upto75_cc_value"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:focusable="false"
+                    android:inputType="numberDecimal"
+                    android:text="75 cc"
+                    android:textAlignment="center"
+                    android:textColor="#000" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="15sp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Nil Depreciation :"
+                    android:layout_marginTop="5dp"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+
+                <RadioGroup
+                    android:id="@+id/pp_motorcycle_upto75_nd"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation='horizontal'
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp">
+
+                    <RadioButton
+                        android:id="@+id/pp_motorcycle_upto75_nd_yes"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Yes"
+                        android:checked="true"/>
+
+                    <RadioButton
+                        android:id="@+id/pp_motorcycle_upto75_nd_no"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="NO"
+                        android:layout_marginLeft="8dp"/>
+
+                </RadioGroup>
+
+
+                <EditText
+                    android:id="@+id/pp_motorcycle_upto75_nd_value"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:focusable="false"
+                    android:hint="value"
+                    android:textColor="#000"
+                    android:textAlignment="center"
+
+                    android:layout_weight="1"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="%"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="15sp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="U/W Discount :"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/pp_motorcycle_upto75_uwd_value"
+                    android:nextFocusDown="@+id/spinner"
+                    android:inputType="numberDecimal"
+                    android:layout_weight="1"
+                    android:hint="In Percentage"
+                    android:maxLines="1"
+                    android:textColor="#000"
+                    android:textAlignment="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="%"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="15sp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="N C B : "
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+
+
+                <Spinner
+                    android:id="@+id/pp_motorcycle_upto75_ncb"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="%"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/pp_motorcycle_upto75_btn"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Calculate"
+                android:textSize="17sp"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginTop="27dp"
+                android:layout_marginBottom="67dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true"
+                android:background="#3498DB"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:background="#3CB371"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id">
+    </com.google.android.gms.ads.AdView>
+
+
+</RelativeLayout>

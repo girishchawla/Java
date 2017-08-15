@@ -1,0 +1,999 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="20dp"
+    android:background="#EAFAF1">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/ppdisplay_car_upto1500"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textAlignment="center"
+                android:textSize="25dp"
+                android:textColor="@android:color/black"
+                android:text="Package Policy - Upto 1500cc\nPrivate Car" />
+
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#2E8B57"
+            android:layout_marginTop="70dp"/>
+
+        <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_marginTop="80dp"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TableRow
+                android:padding="5dp">
+                <TextView
+                    android:id="@+id/ppdisplay_car_upto1500_IDV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAlignment="center"
+                    android:text="IDV"
+                    android:textStyle="bold"
+                    android:textSize="18dp"
+                    android:textColor="@android:color/black"/>
+
+
+                <TextView
+                    android:id="@+id/:1car_upto1500"
+                    android:layout_width="5dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAlignment="textStart"
+                    android:text=":"
+                    android:textStyle="bold"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:id="@+id/ppdisplay_car_upto1500_IDV_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="₹"
+                    android:textAlignment="center"
+                    android:textSize="18dp"/>
+
+            </TableRow>
+
+
+            <TableRow
+                android:padding="5dp">
+
+                <TextView
+                    android:id="@+id/ppdisplay_car_upto1500_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAlignment="center"
+                    android:text="Date"
+                    android:textStyle="bold"
+                    android:textSize="18dp"
+                    android:textColor="@android:color/black"/>
+
+
+                <TextView
+                    android:id="@+id/:2car_upto1500"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAlignment="textStart"
+                    android:text=":"
+                    android:textStyle="bold"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:id="@+id/ppdisplay_car_upto1500_date_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAlignment="center"
+                    android:textSize="18dp"/>
+
+            </TableRow>
+
+
+            <TableRow
+                android:padding="5dp">
+
+                <TextView
+                    android:id="@+id/ppdisplay_car_upto1500_zone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAlignment="center"
+                    android:text="Zone"
+                    android:textStyle="bold"
+                    android:textSize="18dp"
+                    android:textColor="@android:color/black"/>
+
+                <TextView
+                    android:id="@+id/:3car_upto1500"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAlignment="textStart"
+                    android:text=":"
+                    android:textStyle="bold"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:id="@+id/ppdisplay_car_upto1500_zone_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAlignment="center"
+                    android:textSize="18dp"/>
+
+            </TableRow>
+
+
+
+            <TableRow
+                android:padding="5dp">
+
+                <TextView
+                    android:id="@+id/ppdisplay_car_upto1500_cc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAlignment="center"
+                    android:text="CC"
+                    android:textStyle="bold"
+                    android:textSize="18dp"
+                    android:textColor="@android:color/black"/>
+
+                <TextView
+                    android:id="@+id/:4car_upto1500"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAlignment="textStart"
+                    android:text=":"
+                    android:textStyle="bold"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:id="@+id/ppdisplay_car_upto1500_cc_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAlignment="center"
+                    android:textSize="18dp"/>
+
+            </TableRow>
+
+
+            <TableRow
+                android:padding="5dp">
+
+                <TextView
+                    android:id="@+id/ppdisplay_car_upto1500_lpg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAlignment="center"
+                    android:text="LPG"
+                    android:textStyle="bold"
+                    android:textSize="18dp"
+                    android:textColor="@android:color/black"/>
+
+                <TextView
+                    android:id="@+id/:6car_upto1500"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAlignment="textStart"
+                    android:text=":"
+                    android:textStyle="bold"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:id="@+id/ppdisplay_car_upto1500_lpg_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAlignment="center"
+                    android:textSize="18dp"/>
+
+            </TableRow>
+
+
+            <TableRow
+                android:padding="5dp">
+
+                <TextView
+                    android:id="@+id/ppdisplay_car_upto1500_lpgtype"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAlignment="center"
+                    android:text="LPG Type"
+                    android:textStyle="bold"
+                    android:textSize="18dp"
+                    android:textColor="@android:color/black"/>
+
+                <TextView
+                    android:id="@+id/:7car_upto1500"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAlignment="textStart"
+                    android:text=":"
+                    android:textStyle="bold"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:id="@+id/ppdisplay_car_upto1500_lpgtype_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAlignment="center"
+                    android:textSize="18dp"/>
+
+            </TableRow>
+
+
+            <TableRow
+                android:padding="5dp">
+
+                <TextView
+                    android:id="@+id/ppdisplay_car_upto1500_nd"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAlignment="center"
+                    android:text="N / D"
+                    android:textStyle="bold"
+                    android:textSize="18dp"
+                    android:textColor="@android:color/black"/>
+
+                <TextView
+                    android:id="@+id/:5car_upto1500"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text=":"
+                    android:textAlignment="textStart"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/ppdisplay_car_upto1500_nd_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="%"
+                    android:textAlignment="center"
+                    android:textSize="18dp"/>
+
+            </TableRow>
+
+
+
+            <TableRow
+                android:padding="5dp">
+
+                <TextView
+                    android:id="@+id/ppdisplay_car_upto1500_antitheft"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAlignment="center"
+                    android:text="Anti-Theft"
+                    android:textStyle="bold"
+                    android:textSize="18dp"
+                    android:textColor="@android:color/black"/>
+
+                <TextView
+                    android:id="@+id/:8car_upto1500"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAlignment="textStart"
+                    android:text=":"
+                    android:textStyle="bold"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:id="@+id/ppdisplay_car_upto1500_antitheft_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAlignment="center"
+                    android:textSize="18dp"/>
+
+            </TableRow>
+
+            <TableRow
+                android:padding="5dp">
+
+                <TextView
+                    android:id="@+id/ppdisplay_car_upto1500_uwd"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAlignment="center"
+                    android:text="U/W Discount"
+                    android:textStyle="bold"
+                    android:textSize="18dp"
+                    android:textColor="@android:color/black"/>
+
+                <TextView
+                    android:id="@+id/:9car_upto1500"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text=":"
+                    android:textAlignment="textStart"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/ppdisplay_car_upto1500_uwd_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="%"
+                    android:textAlignment="center"
+                    android:textSize="18dp"/>
+
+            </TableRow>
+
+
+
+            <TableRow
+                android:padding="5dp">
+
+                <TextView
+                    android:id="@+id/ppdisplay_car_upto1500_ncb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAlignment="center"
+                    android:text="N C B"
+                    android:textStyle="bold"
+                    android:textSize="18dp"
+                    android:textColor="@android:color/black"/>
+
+                <TextView
+                    android:id="@+id/:10car_upto1500"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text=":"
+                    android:textAlignment="textStart"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/ppdisplay_car_upto1500_ncb_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="%"
+                    android:textAlignment="center"
+                    android:textSize="18dp"/>
+
+            </TableRow>
+
+
+            <TableRow
+                android:padding="5dp">
+
+                <TextView
+                    android:id="@+id/ppdisplay_car_upto1500_od"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAlignment="center"
+                    android:text="(A) -> OD Total"
+                    android:textStyle="bold"
+                    android:textColor="#3498DB"
+                    android:textSize="22dp" />
+
+                <TextView
+                    android:id="@+id/:11car_upto1500"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text=":"
+                    android:textAlignment="textStart"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/ppdisplay_car_upto1500_od_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textColor="#3498DB"
+                    android:textStyle="bold"
+                    android:textSize="22dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="₹"
+                    android:textAlignment="center"
+                    android:textColor="#3498DB"
+                    android:textSize="22dp"/>
+
+            </TableRow>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:background="#2E8B57"
+                android:layout_marginTop="5dp"/>
+
+            <TableRow
+                android:padding="5dp">
+
+                <TextView
+                    android:id="@+id/ppdisplay_car_upto1500_tp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAlignment="center"
+                    android:text="TP Basic"
+                    android:textStyle="bold"
+                    android:textSize="18dp"
+                    android:textColor="@android:color/black"/>
+
+                <TextView
+                    android:id="@+id/:12car_upto1500"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text=":"
+                    android:textAlignment="textStart"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/ppdisplay_car_upto1500_tp_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="2237"
+                    android:textAlignment="center"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="₹"
+                    android:textAlignment="center"
+                    android:textSize="18dp"/>
+
+            </TableRow>
+
+
+            <TableRow
+                android:padding="5dp">
+
+                <TextView
+                    android:id="@+id/ppdisplay_car_upto1500_pa"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAlignment="center"
+                    android:text="P A to Owner - Driver"
+                    android:textStyle="bold"
+                    android:textSize="18dp"
+                    android:textColor="@android:color/black"/>
+
+                <TextView
+                    android:id="@+id/:13car_upto1500"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text=":"
+                    android:textAlignment="textStart"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/ppdisplay_car_upto1500_pa_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="100"
+                    android:textAlignment="center"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="₹"
+                    android:textAlignment="center"
+                    android:textSize="18dp"/>
+
+            </TableRow>
+
+
+            <TableRow
+                android:padding="5dp">
+
+                <TextView
+                    android:id="@+id/ppdisplay_car_upto1500_ll"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAlignment="center"
+                    android:text="L L to Driver"
+                    android:textStyle="bold"
+                    android:textSize="18dp"
+                    android:textColor="@android:color/black"/>
+
+                <TextView
+                    android:id="@+id/:14car_upto1500"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text=":"
+                    android:textAlignment="textStart"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/ppdisplay_car_upto1500_ll_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="50"
+                    android:textAlignment="center"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="₹"
+                    android:textAlignment="center"
+                    android:textSize="18dp"/>
+
+            </TableRow>
+
+
+
+            <TableRow
+                android:padding="5dp">
+
+                <TextView
+                    android:id="@+id/ppdisplay_car_upto1500_pa_pass"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAlignment="center"
+                    android:text="P A to Passengers"
+                    android:textStyle="bold"
+                    android:textSize="18dp"
+                    android:textColor="@android:color/black"/>
+
+                <TextView
+                    android:id="@+id/:15car_upto1500"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text=":"
+                    android:textAlignment="textStart"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/ppdisplay_car_upto1500_pa_pass_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="₹"
+                    android:textAlignment="center"
+                    android:textSize="18dp"/>
+
+            </TableRow>
+
+
+
+            <TableRow
+                android:padding="5dp">
+
+                <TextView
+                    android:id="@+id/ppdisplay_car_upto1500_lpgkit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAlignment="center"
+                    android:text="L P G Kit"
+                    android:textStyle="bold"
+                    android:textSize="18dp"
+                    android:textColor="@android:color/black"/>
+
+                <TextView
+                    android:id="@+id/:16car_upto1500"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text=":"
+                    android:textAlignment="textStart"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/ppdisplay_car_upto1500_lpgkit_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="₹"
+                    android:textAlignment="center"
+                    android:textSize="18dp"/>
+
+            </TableRow>
+
+
+
+            <TableRow
+                android:padding="5dp">
+
+                <TextView
+                    android:id="@+id/ppdisplay_car_upto1500_b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAlignment="center"
+                    android:text="(B) -> Total"
+                    android:textStyle="bold"
+                    android:textColor="#3498DB"
+                    android:textSize="22dp" />
+
+                <TextView
+                    android:id="@+id/:17car_upto1500"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text=":"
+                    android:textAlignment="textStart"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/ppdisplay_car_upto1500_b_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="₹ "
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:textColor="#3498DB"
+                    android:textSize="22dp"  />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="₹"
+                    android:textAlignment="center"
+                    android:textColor="#3498DB"
+                    android:textSize="22dp"/>
+
+            </TableRow>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:background="#2E8B57"
+                android:layout_marginTop="5dp"/>
+
+
+            <TableRow
+                android:padding="5dp">
+
+                <TextView
+                    android:id="@+id/ppdisplay_car_upto1500_ab"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAlignment="center"
+                    android:text="(A) + (B) "
+                    android:textStyle="bold"
+                    android:textSize="18dp"
+                    android:textColor="@android:color/black"/>
+
+                <TextView
+                    android:id="@+id/:18car_upto1500"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text=":"
+                    android:textAlignment="textStart"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/ppdisplay_car_upto1500_ab_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="₹"
+                    android:textAlignment="center"
+                    android:textSize="18dp"/>
+            </TableRow>
+
+
+            <TableRow
+                android:padding="5dp">
+
+                <TextView
+                    android:id="@+id/ppdisplay_car_upto1500_tax"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAlignment="center"
+                    android:text="Service Tax "
+                    android:textStyle="bold"
+                    android:textSize="18dp"
+                    android:textColor="@android:color/black"/>
+
+                <TextView
+                    android:id="@+id/:19car_upto1500"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text=":"
+                    android:textAlignment="textStart"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/ppdisplay_car_upto1500_tax_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="15"
+                    android:textAlignment="center"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="%"
+                    android:textAlignment="center"
+                    android:textSize="18dp"/>
+
+            </TableRow>
+
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:background="#2E8B57"
+                android:layout_marginTop="5dp"/>
+
+
+            <TableRow
+                android:padding="5dp">
+
+                <TextView
+                    android:id="@+id/ppdisplay_car_upto1500_total"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAlignment="center"
+                    android:text="Total Premium"
+                    android:textStyle="bold"
+                    android:textColor="#3498DB"
+                    android:textSize="25dp" />
+
+                <TextView
+                    android:id="@+id/:20car_upto1500"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text=":"
+                    android:textAlignment="textStart"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/ppdisplay_car_upto1500_total_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text=""
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:textColor="#3498DB"
+                    android:textSize="22dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="₹"
+                    android:textAlignment="center"
+                    android:textSize="22dp"/>
+
+            </TableRow>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:background="#2E8B57"
+                android:layout_marginTop="5dp"/>
+
+
+            <FrameLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="30dp">
+
+                <at.markushi.ui.CircleButton
+                    android:id="@+id/ppdisplay_car_upto1500_home"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:src="@drawable/home"
+                    android:layout_marginBottom="70dp"
+                    app:cb_color="#3498DB"
+                    app:cb_pressedRingWidth="10dip"/>
+
+            </FrameLayout>
+
+
+        </TableLayout>
+
+
+
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#3CB371"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true">
+    </com.google.android.gms.ads.AdView>
+
+</RelativeLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "318364562894",
+    "firebase_url": "https://insurancepremiumcalculat-dea95.firebaseio.com",
+    "project_id": "insurancepremiumcalculat-dea95",
+    "storage_bucket": "insurancepremiumcalculat-dea95.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:318364562894:android:6b061db02ea1ab49",
+        "android_client_info": {
+          "package_name": "com.avidprogrammers.insurancepremiumcalculator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "318364562894-a0195vmqdc5840i075ofibfhbcme847d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.avidprogrammers.insurancepremiumcalculator",
+            "certificate_hash": "15deb2c51b30776e270387d6b4b9b1d4ab3cb620"
+          }
+        },
+        {
+          "client_id": "318364562894-rf617jokfjq21bl6ji2gkqkmocmagvpa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7fLn_ARYTdZ8I2mMQEkcT-Fgil9YUzpo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "318364562894-rf617jokfjq21bl6ji2gkqkmocmagvpa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
